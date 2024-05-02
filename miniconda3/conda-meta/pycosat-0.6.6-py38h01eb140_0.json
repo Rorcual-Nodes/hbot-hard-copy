@@ -1,0 +1,134 @@
+{
+  "build": "py38h01eb140_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=12",
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38"
+  ],
+  "extracted_package_dir": "/root/miniconda3/pkgs/pycosat-0.6.6-py38h01eb140_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/__pycache__/test_pycosat.cpython-38.pyc",
+    "lib/python3.8/site-packages/pycosat-0.6.6.dist-info/AUTHORS.md",
+    "lib/python3.8/site-packages/pycosat-0.6.6.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/pycosat-0.6.6.dist-info/LICENSE",
+    "lib/python3.8/site-packages/pycosat-0.6.6.dist-info/METADATA",
+    "lib/python3.8/site-packages/pycosat-0.6.6.dist-info/RECORD",
+    "lib/python3.8/site-packages/pycosat-0.6.6.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/pycosat-0.6.6.dist-info/WHEEL",
+    "lib/python3.8/site-packages/pycosat-0.6.6.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/pycosat-0.6.6.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/pycosat.cpython-38-x86_64-linux-gnu.so",
+    "lib/python3.8/site-packages/test_pycosat.py"
+  ],
+  "fn": "pycosat-0.6.6-py38h01eb140_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/root/miniconda3/pkgs/pycosat-0.6.6-py38h01eb140_0",
+    "type": 1
+  },
+  "md5": "62e285b1705fd8a2b94320be2bb36ff5",
+  "name": "pycosat",
+  "package_tarball_full_path": "/root/miniconda3/pkgs/pycosat-0.6.6-py38h01eb140_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/__pycache__/test_pycosat.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d382604f063d78863e883b30906eec92e4b65896b3e19563b637658280be8611",
+        "sha256_in_prefix": "d382604f063d78863e883b30906eec92e4b65896b3e19563b637658280be8611",
+        "size_in_bytes": 14220
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pycosat-0.6.6.dist-info/AUTHORS.md",
+        "path_type": "hardlink",
+        "sha256": "dcfd08cd98556e3290de96243f007831474328706e58fb2edc0118ebdb28d55e",
+        "sha256_in_prefix": "dcfd08cd98556e3290de96243f007831474328706e58fb2edc0118ebdb28d55e",
+        "size_in_bytes": 303
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pycosat-0.6.6.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pycosat-0.6.6.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "233d9a3b1d9e0d8afb120ee76b98e65c55ede04162fe37c2e803a3d38968021e",
+        "sha256_in_prefix": "233d9a3b1d9e0d8afb120ee76b98e65c55ede04162fe37c2e803a3d38968021e",
+        "size_in_bytes": 1084
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pycosat-0.6.6.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c3df68488a707ae6d6e0ec5c86eba6478b10910b74eb6a28a30fd5a2faf9cc7d",
+        "sha256_in_prefix": "c3df68488a707ae6d6e0ec5c86eba6478b10910b74eb6a28a30fd5a2faf9cc7d",
+        "size_in_bytes": 5361
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pycosat-0.6.6.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "f23be0578bb076f1837dfc5bb1a193b64e999bc74cb881043477048323a7d99f",
+        "sha256_in_prefix": "f23be0578bb076f1837dfc5bb1a193b64e999bc74cb881043477048323a7d99f",
+        "size_in_bytes": 968
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pycosat-0.6.6.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pycosat-0.6.6.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "6ec4de779e699eea4c07308ee1b8abb11519aa2f81ef8bb4b685635732f0dc5f",
+        "sha256_in_prefix": "6ec4de779e699eea4c07308ee1b8abb11519aa2f81ef8bb4b685635732f0dc5f",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pycosat-0.6.6.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "2f3a65492694cac84528faf8738229414366e984ba95817054c272068bb6f622",
+        "sha256_in_prefix": "2f3a65492694cac84528faf8738229414366e984ba95817054c272068bb6f622",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pycosat-0.6.6.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "47df40ce884f9595883a39b54562bd8afea8e1dfd82b39165099c771ccd838d1",
+        "sha256_in_prefix": "47df40ce884f9595883a39b54562bd8afea8e1dfd82b39165099c771ccd838d1",
+        "size_in_bytes": 21
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pycosat.cpython-38-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "0464ad7d427debd7836554cc933557a6302cb86e2d7fa4c9f0457c5d44b5e997",
+        "sha256_in_prefix": "0464ad7d427debd7836554cc933557a6302cb86e2d7fa4c9f0457c5d44b5e997",
+        "size_in_bytes": 93072
+      },
+      {
+        "_path": "lib/python3.8/site-packages/test_pycosat.py",
+        "path_type": "hardlink",
+        "sha256": "f7bcef178eabacb9c477ba20b88e8646ade28c86c23ed9327eecc8144777d8b2",
+        "sha256_in_prefix": "f7bcef178eabacb9c477ba20b88e8646ade28c86c23ed9327eecc8144777d8b2",
+        "size_in_bytes": 8806
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a39b5fa80e762aedd4d8153e810be4ca1acab3fc0ba449fd5dd4bf0c6cc8b7a1",
+  "size": 84981,
+  "subdir": "linux-64",
+  "timestamp": 1696355948222,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pycosat-0.6.6-py38h01eb140_0.conda",
+  "version": "0.6.6"
+}

@@ -1,0 +1,11 @@
+prefix=/root/miniconda3
+exec_prefix=/root/miniconda3
+libdir=/root/miniconda3/lib
+includedir=/root/miniconda3/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.38.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

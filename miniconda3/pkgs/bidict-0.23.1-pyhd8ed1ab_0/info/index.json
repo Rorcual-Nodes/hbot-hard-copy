@@ -1,0 +1,15 @@
+{
+  "arch": null,
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.8"
+  ],
+  "license": "MPL-2.0",
+  "name": "bidict",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1708298386480,
+  "version": "0.23.1"
+}

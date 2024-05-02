@@ -1,0 +1,125 @@
+{
+  "paths": [
+    {
+      "_path": "include/omp-tools.h",
+      "path_type": "hardlink",
+      "sha256": "fa06b3089702db0d2dc5900caab6d93b2e5e0fd56295b65bf7611c436c72bff7",
+      "size_in_bytes": 51555
+    },
+    {
+      "_path": "include/omp.h",
+      "path_type": "hardlink",
+      "sha256": "9ef85ad278e06954e97326ca6c515aa91f86f05cd54608a531a136a571174bd6",
+      "size_in_bytes": 23818
+    },
+    {
+      "_path": "include/ompt-multiplex.h",
+      "path_type": "hardlink",
+      "sha256": "855129c2b6ef8f621fd5fb7ee3ed1f70e6bf441e1eed31d9fe953ba928b8b813",
+      "size_in_bytes": 52333
+    },
+    {
+      "_path": "include/ompt.h",
+      "path_type": "hardlink",
+      "sha256": "fa06b3089702db0d2dc5900caab6d93b2e5e0fd56295b65bf7611c436c72bff7",
+      "size_in_bytes": 51555
+    },
+    {
+      "_path": "include/ompx.h",
+      "path_type": "hardlink",
+      "sha256": "555e94eb0632b9dd448d0e757e8763b9af2e074b728e93576ed6ce80d1170c25",
+      "size_in_bytes": 5326
+    },
+    {
+      "_path": "lib/clang/18.1.4/include/omp.h",
+      "path_type": "hardlink",
+      "sha256": "9ef85ad278e06954e97326ca6c515aa91f86f05cd54608a531a136a571174bd6",
+      "size_in_bytes": 23818
+    },
+    {
+      "_path": "lib/cmake/openmp/FindOpenMPTarget.cmake",
+      "path_type": "hardlink",
+      "sha256": "26506a34b9ce99dfc59ebc275e74bec2c5f627a5152b22413511d7c9ac7ff519",
+      "size_in_bytes": 15166
+    },
+    {
+      "_path": "lib/libarcher.so.bak",
+      "path_type": "hardlink",
+      "sha256": "705b40f1d7fd23f96d92594e0bdc5ce6d87a681f48bd993f9e23c5f6e45d0219",
+      "size_in_bytes": 6731232
+    },
+    {
+      "_path": "lib/libarcher_static.a",
+      "path_type": "hardlink",
+      "sha256": "f8e6835e9561bd986c13596cdd0152d663e67c6541db028334da4e5b59bb338c",
+      "size_in_bytes": 80142
+    },
+    {
+      "_path": "lib/libiomp5.so",
+      "path_type": "softlink",
+      "sha256": "03fd327357d00fede517eb09fa8e40ccc7a4966bea8b81d964da6b1ff0229cd3",
+      "size_in_bytes": 1391432
+    },
+    {
+      "_path": "lib/libomp.so",
+      "path_type": "hardlink",
+      "sha256": "03fd327357d00fede517eb09fa8e40ccc7a4966bea8b81d964da6b1ff0229cd3",
+      "size_in_bytes": 1391432
+    },
+    {
+      "_path": "lib/libompd.so",
+      "path_type": "hardlink",
+      "sha256": "482ec193b91db2046d6c83cf0c5f01e8321ccd3e941726f5ccd6f82b0d1475c6",
+      "size_in_bytes": 6727304
+    },
+    {
+      "_path": "lib/libomptarget.rtl.amdgpu.so",
+      "path_type": "softlink",
+      "sha256": "78adf7b782f597a5ba96c2c5a1d93060b5fbdafbe1a3ad7424c5d0ee53af7500",
+      "size_in_bytes": 66684616
+    },
+    {
+      "_path": "lib/libomptarget.rtl.amdgpu.so.18.1",
+      "path_type": "hardlink",
+      "sha256": "78adf7b782f597a5ba96c2c5a1d93060b5fbdafbe1a3ad7424c5d0ee53af7500",
+      "size_in_bytes": 66684616
+    },
+    {
+      "_path": "lib/libomptarget.rtl.cuda.so",
+      "path_type": "softlink",
+      "sha256": "42f5f3d54f49ec23a289385602f3feced1c2aca8f9a22742f8f97e98af69829e",
+      "size_in_bytes": 66622104
+    },
+    {
+      "_path": "lib/libomptarget.rtl.cuda.so.18.1",
+      "path_type": "hardlink",
+      "sha256": "42f5f3d54f49ec23a289385602f3feced1c2aca8f9a22742f8f97e98af69829e",
+      "size_in_bytes": 66622104
+    },
+    {
+      "_path": "lib/libomptarget.rtl.x86_64.so",
+      "path_type": "softlink",
+      "sha256": "d7328d8cacd79f04a65858a8472c123a29af34c961479a90e6627d2521ec8f8e",
+      "size_in_bytes": 66549512
+    },
+    {
+      "_path": "lib/libomptarget.rtl.x86_64.so.18.1",
+      "path_type": "hardlink",
+      "sha256": "d7328d8cacd79f04a65858a8472c123a29af34c961479a90e6627d2521ec8f8e",
+      "size_in_bytes": 66549512
+    },
+    {
+      "_path": "lib/libomptarget.so",
+      "path_type": "softlink",
+      "sha256": "3e0502601ef3887c5289235a718ca8f5898f6d402d53c3897d80cdf5a4598938",
+      "size_in_bytes": 6793040
+    },
+    {
+      "_path": "lib/libomptarget.so.18.1",
+      "path_type": "hardlink",
+      "sha256": "3e0502601ef3887c5289235a718ca8f5898f6d402d53c3897d80cdf5a4598938",
+      "size_in_bytes": 6793040
+    }
+  ],
+  "paths_version": 1
+}

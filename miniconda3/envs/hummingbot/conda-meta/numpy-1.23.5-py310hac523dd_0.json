@@ -1,0 +1,38 @@
+{
+  "build": "py310hac523dd_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "blas * openblas",
+    "libgcc-ng >=11.2.0",
+    "libopenblas >=0.3.20,<1.0a0",
+    "libstdcxx-ng >=11.2.0",
+    "numpy-base 1.23.5 py310h375b286_0",
+    "python >=3.10,<3.11.0a0"
+  ],
+  "extracted_package_dir": "/root/miniconda3/pkgs/numpy-1.23.5-py310hac523dd_0",
+  "features": "",
+  "files": [],
+  "fn": "numpy-1.23.5-py310hac523dd_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/root/miniconda3/pkgs/numpy-1.23.5-py310hac523dd_0",
+    "type": 1
+  },
+  "md5": "b2cd10face2873ce3f708d6f1ad51ea0",
+  "name": "numpy",
+  "package_tarball_full_path": "/root/miniconda3/pkgs/numpy-1.23.5-py310hac523dd_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "numpy=1.23.5",
+  "sha256": "010d7c4cc7b46d6f926c9b004528d10b833f9f89e06f1234564f24fce7c2c45e",
+  "size": 10567,
+  "subdir": "linux-64",
+  "timestamp": 1672337464000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/numpy-1.23.5-py310hac523dd_0.conda",
+  "version": "1.23.5"
+}

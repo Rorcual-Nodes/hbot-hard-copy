@@ -1,0 +1,36 @@
+{
+  "arch": "x86_64",
+  "build": "py310ha4c1d20_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [
+    "libopenblas <0.3.26"
+  ],
+  "depends": [
+    "libblas >=3.9.0,<4.0a0",
+    "libcblas >=3.9.0,<4.0a0",
+    "libgcc-ng >=12",
+    "libgfortran-ng",
+    "libgfortran5 >=12.2.0",
+    "liblapack >=3.9.0,<4.0a0",
+    "libstdcxx-ng >=12",
+    "numpy >=1.21.6,<1.27",
+    "numpy >=1.21.6,<2.0a0",
+    "pooch",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310"
+  ],
+  "features": "",
+  "fn": "scipy-1.10.1-py310ha4c1d20_3.conda",
+  "license": "BSD-3-Clause",
+  "md5": "0414d57832172f3cdcf56b5f053e177d",
+  "name": "scipy",
+  "platform": "linux",
+  "sha256": "c7beb091db82a1be2fa9dafb878695b1e8bd6d7efe7764afa457cabfea2a93d3",
+  "size": 15123927,
+  "subdir": "linux-64",
+  "timestamp": 1683901442000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/scipy-1.10.1-py310ha4c1d20_3.conda",
+  "version": "1.10.1"
+}

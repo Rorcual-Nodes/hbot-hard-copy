@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "py310h2372a71_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "greenlet !=0.4.17",
+    "libgcc-ng >=12",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310"
+  ],
+  "features": "",
+  "fn": "sqlalchemy-1.4.49-py310h2372a71_1.conda",
+  "license": "MIT",
+  "md5": "cdeaf46006791202a7597bf2a0e6ad9e",
+  "name": "sqlalchemy",
+  "platform": "linux",
+  "sha256": "bf3834160c19a080a72f33659d3e3edb74d32e2428413d1fa513f36f3b8e081c",
+  "size": 2098021,
+  "subdir": "linux-64",
+  "timestamp": 1697018712000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/sqlalchemy-1.4.49-py310h2372a71_1.conda",
+  "version": "1.4.49"
+}

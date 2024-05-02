@@ -1,0 +1,78 @@
+==> /opt/conda/bin/git log -n1 <==
+commit 3af99e6d566043072e95bc882d32c9c26f37e0ba
+Merge: 2a1a7e92 7e860b20
+Author: Nicholas McKibben <nicholas.bgp@gmail.com>
+Date:   Sat Jul 16 12:01:19 2022 -0700
+
+    Merge pull request #8 from mckib2/add-beta-underflow-patch
+    
+    FIX: add upstream beta underflow patch
+==> /opt/conda/bin/git describe --tags --dirty <==
+commit 3af99e6d566043072e95bc882d32c9c26f37e0ba
+Merge: 2a1a7e92 7e860b20
+Author: Nicholas McKibben <nicholas.bgp@gmail.com>
+Date:   Sat Jul 16 12:01:19 2022 -0700
+
+    Merge pull request #8 from mckib2/add-beta-underflow-patch
+    
+    FIX: add upstream beta underflow patch
+==> /opt/conda/bin/git status <==
+HEAD detached at 3af99e6d
+nothing to commit, working tree clean
+==> /opt/conda/bin/git log -n1 <==
+commit 4a122958a82e67e725d08153e099efe4dad099a2
+Merge: 885c5de95 92735c09d
+Author: Ralf Gommers <ralf.gommers@gmail.com>
+Date:   Mon Jul 18 18:47:28 2022 +0200
+
+    Merge pull request #58 from mckib2/2022-07-16-highs-update
+    
+    ENH: HiGHS submodule update
+==> /opt/conda/bin/git describe --tags --dirty <==
+commit 4a122958a82e67e725d08153e099efe4dad099a2
+Merge: 885c5de95 92735c09d
+Author: Ralf Gommers <ralf.gommers@gmail.com>
+Date:   Mon Jul 18 18:47:28 2022 +0200
+
+    Merge pull request #58 from mckib2/2022-07-16-highs-update
+    
+    ENH: HiGHS submodule update
+==> /opt/conda/bin/git status <==
+HEAD detached at 4a122958a
+nothing to commit, working tree clean
+==> /opt/conda/bin/git log -n1 <==
+commit a63d39160e5ecc4402e7ed0e8417f4c3ff9634cb
+Author: Tirth Patel <tirthasheshpatel@gmail.com>
+Date:   Thu May 12 14:20:27 2022 +0530
+
+    Add copyright back (#6)
+==> /opt/conda/bin/git describe --tags --dirty <==
+commit a63d39160e5ecc4402e7ed0e8417f4c3ff9634cb
+Author: Tirth Patel <tirthasheshpatel@gmail.com>
+Date:   Thu May 12 14:20:27 2022 +0530
+
+    Add copyright back (#6)
+==> /opt/conda/bin/git status <==
+HEAD detached at a63d391
+nothing to commit, working tree clean
+==> /opt/conda/bin/git log -n1 <==
+commit cc32f3ba6cf941e4f9f96d96e2fc5762ea0c1014
+Merge: 92f4663 c40eb74
+Author: Nicholas McKibben <nicholas.bgp@gmail.com>
+Date:   Tue Aug 9 20:35:12 2022 -0700
+
+    Merge pull request #5 from scipy/rgommers-remove-prints
+    
+    MAINT: remove two print statements from clanbpro.F
+==> /opt/conda/bin/git describe --tags --dirty <==
+commit cc32f3ba6cf941e4f9f96d96e2fc5762ea0c1014
+Merge: 92f4663 c40eb74
+Author: Nicholas McKibben <nicholas.bgp@gmail.com>
+Date:   Tue Aug 9 20:35:12 2022 -0700
+
+    Merge pull request #5 from scipy/rgommers-remove-prints
+    
+    MAINT: remove two print statements from clanbpro.F
+==> /opt/conda/bin/git status <==
+HEAD detached at cc32f3b
+nothing to commit, working tree clean

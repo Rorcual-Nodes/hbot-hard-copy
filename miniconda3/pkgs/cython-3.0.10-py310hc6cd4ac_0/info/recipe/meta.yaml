@@ -1,0 +1,103 @@
+# This file created by conda-build 24.3.0
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Sat Mar 30 21:24:45 2024
+# ------------------------------------------------
+
+package:
+  name: cython
+  version: 3.0.10
+source:
+  sha256: 00f97476cef9fcd9a89f9d2a49be3b518e1a74b91f377fe08c97fcb44bc0f7d7
+  url: https://github.com/cython/cython/archive/refs/tags/3.0.10.tar.gz
+build:
+  entry_points:
+    - cygdb = Cython.Debugger.Cygdb:main
+    - cython = Cython.Compiler.Main:setuptools_main
+    - cythonize = Cython.Build.Cythonize:main
+  number: '0'
+  script: /home/conda/feedstock_root/build_artifacts/cython_1711833953208/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac/bin/python
+    -m pip install . --no-deps -vv
+  string: py310hc6cd4ac_0
+requirements:
+  build:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - binutils_impl_linux-64 2.40 hf600244_0
+    - binutils_linux-64 2.40 hdade7a5_3
+    - gcc_impl_linux-64 12.3.0 he2b93b0_5
+    - gcc_linux-64 12.3.0 h6477408_3
+    - gxx_impl_linux-64 12.3.0 he2b93b0_5
+    - gxx_linux-64 12.3.0 h4a1b8e8_3
+    - kernel-headers_linux-64 2.6.32 he073ed8_17
+    - ld_impl_linux-64 2.40 h41732ed_0
+    - libgcc-devel_linux-64 12.3.0 h8bca6fd_105
+    - libgcc-ng 13.2.0 h807b86a_5
+    - libgomp 13.2.0 h807b86a_5
+    - libsanitizer 12.3.0 h0f45ef3_5
+    - libstdcxx-devel_linux-64 12.3.0 h8bca6fd_105
+    - libstdcxx-ng 13.2.0 h7e041cc_5
+    - sysroot_linux-64 2.12 he073ed8_17
+  host:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - bzip2 1.0.8 hd590300_5
+    - ca-certificates 2024.2.2 hbcca054_0
+    - ld_impl_linux-64 2.40 h41732ed_0
+    - libffi 3.4.2 h7f98852_5
+    - libgcc-ng 13.2.0 h807b86a_5
+    - libgomp 13.2.0 h807b86a_5
+    - libnsl 2.0.1 hd590300_0
+    - libsqlite 3.45.2 h2797004_0
+    - libstdcxx-ng 13.2.0 h7e041cc_5
+    - libuuid 2.38.1 h0b41bf4_0
+    - libxcrypt 4.4.36 hd590300_1
+    - libzlib 1.2.13 hd590300_5
+    - ncurses 6.4.20240210 h59595ed_0
+    - openssl 3.2.1 hd590300_1
+    - pip 24.0 pyhd8ed1ab_0
+    - python 3.10.14 hd12c33a_0_cpython
+    - readline 8.2 h8228510_1
+    - setuptools 69.2.0 pyhd8ed1ab_0
+    - tk 8.6.13 noxft_h4845f30_101
+    - tzdata 2024a h0c530f3_0
+    - wheel 0.43.0 pyhd8ed1ab_1
+    - xz 5.2.6 h166bdaf_0
+  run:
+    - libgcc-ng >=12
+    - libstdcxx-ng >=12
+    - python >=3.10,<3.11.0a0
+    - python_abi 3.10.* *_cp310
+test:
+  commands:
+    - cython --version
+  files:
+    - fib.pyx
+  requires: null
+about:
+  description: 'Cython is an optimising static compiler for both the Python programming
+
+    language and the extended Cython programming language. It makes writing C
+
+    extensions for Python as easy as Python itself.
+
+    '
+  dev_url: https://github.com/cython/cython
+  doc_url: https://docs.cython.org
+  home: http://www.cython.org/
+  license: Apache-2.0
+  license_file: LICENSE.txt
+  summary: The Cython compiler for writing C extensions for the Python language
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: azure_20240330.2.1
+  recipe-maintainers:
+    - h-vetinari
+    - isuruf
+    - jakirkham
+    - msarahan
+    - ocefpaf
+    - scopatz
+    - synapticarbors
+  remote_url: https://github.com/conda-forge/cython-feedstock
+  sha: e37928c1b5a5b7abec5ed06efc55d321395e8f50

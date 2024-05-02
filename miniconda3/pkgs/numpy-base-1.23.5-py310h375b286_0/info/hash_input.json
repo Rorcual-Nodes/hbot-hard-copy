@@ -1,0 +1,12 @@
+{
+  "c_compiler": "gcc",
+  "c_compiler_version": "11.2.0",
+  "cxx_compiler_version": "11.2.0",
+  "openblas": "0.3.20",
+  "target_platform": "linux-64",
+  "blas_impl": "openblas",
+  "channel_targets": "defaults",
+  "cxx_compiler": "gxx",
+  "only_build_numpy_base": "no",
+  "numpy": "1.21"
+}

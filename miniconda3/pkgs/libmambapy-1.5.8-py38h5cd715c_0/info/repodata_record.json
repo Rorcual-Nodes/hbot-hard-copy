@@ -1,0 +1,32 @@
+{
+  "arch": "x86_64",
+  "build": "py38h5cd715c_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "fmt >=10.2.1,<11.0a0",
+    "libgcc-ng >=12",
+    "libmamba 1.5.8 had39da4_0",
+    "libstdcxx-ng >=12",
+    "openssl >=3.2.1,<4.0a0",
+    "pybind11-abi 4",
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38",
+    "yaml-cpp >=0.8.0,<0.9.0a0"
+  ],
+  "features": "",
+  "fn": "libmambapy-1.5.8-py38h5cd715c_0.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "e4eac285f6a2b26a976e342c149645cd",
+  "name": "libmambapy",
+  "platform": "linux",
+  "sha256": "87630513e6e56b399fea809c6bb3f5335ed36c5a30f60e814e76afdfeab033b9",
+  "size": 310065,
+  "subdir": "linux-64",
+  "timestamp": 1711395186535,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libmambapy-1.5.8-py38h5cd715c_0.conda",
+  "version": "1.5.8"
+}

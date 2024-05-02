@@ -1,0 +1,9 @@
+libdir=/home/conda/feedstock_root/build_artifacts/libsolv-split_1714552029478/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib
+includedir=/home/conda/feedstock_root/build_artifacts/libsolv-split_1714552029478/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/include
+
+Name: libsolvext
+Description: Library for reading repositories
+Version: 0.7.29
+Requires: libsolv
+Libs: -L${libdir} -lsolvext
+Cflags: -I${includedir}

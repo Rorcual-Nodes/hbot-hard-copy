@@ -1,0 +1,100 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "nose",
+    "python",
+    "setuptools"
+  ],
+  "extracted_package_dir": "/root/miniconda3/pkgs/nose-exclude-0.5.0-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/nose_exclude-0.5.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/nose_exclude-0.5.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/nose_exclude-0.5.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/nose_exclude-0.5.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/nose_exclude-0.5.0.dist-info/entry_points.txt",
+    "lib/python3.10/site-packages/nose_exclude-0.5.0.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/nose_exclude.py",
+    "lib/python3.10/site-packages/__pycache__/nose_exclude.cpython-310.pyc"
+  ],
+  "fn": "nose-exclude-0.5.0-py_0.tar.bz2",
+  "license": "LGPL-2.1",
+  "link": {
+    "source": "/root/miniconda3/pkgs/nose-exclude-0.5.0-py_0",
+    "type": 1
+  },
+  "md5": "ad64ebb6f0f758258520266d11e5c25e",
+  "name": "nose-exclude",
+  "noarch": "python",
+  "package_tarball_full_path": "/root/miniconda3/pkgs/nose-exclude-0.5.0-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/nose_exclude-0.5.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "site-packages/nose_exclude-0.5.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "d4ea52a8efef7c9a1cb513960653b76cfaf58f9ac71dd4e77b21e7e7c32db79b",
+        "sha256_in_prefix": "d4ea52a8efef7c9a1cb513960653b76cfaf58f9ac71dd4e77b21e7e7c32db79b",
+        "size_in_bytes": 3457
+      },
+      {
+        "_path": "site-packages/nose_exclude-0.5.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "21e09470985e3c012fe996ca262364c7a2c1af773db3517b0115034bcc53fca1",
+        "sha256_in_prefix": "21e09470985e3c012fe996ca262364c7a2c1af773db3517b0115034bcc53fca1",
+        "size_in_bytes": 609
+      },
+      {
+        "_path": "site-packages/nose_exclude-0.5.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c32e88d119177f5487408f5680c18c66d92b3ea73e738f545ab4c7d7f9ca1674",
+        "sha256_in_prefix": "c32e88d119177f5487408f5680c18c66d92b3ea73e738f545ab4c7d7f9ca1674",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/nose_exclude-0.5.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "3809bbdd06a1939c3362875199480639e8694ae849650c1c9832bd8f9c13a0df",
+        "sha256_in_prefix": "3809bbdd06a1939c3362875199480639e8694ae849650c1c9832bd8f9c13a0df",
+        "size_in_bytes": 56
+      },
+      {
+        "_path": "site-packages/nose_exclude-0.5.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "753c1fa071621ab52ae9fefcd676c577ff43a5e0464a238b0d8b4001bcd2e3a3",
+        "sha256_in_prefix": "753c1fa071621ab52ae9fefcd676c577ff43a5e0464a238b0d8b4001bcd2e3a3",
+        "size_in_bytes": 13
+      },
+      {
+        "_path": "site-packages/nose_exclude.py",
+        "path_type": "hardlink",
+        "sha256": "cb5720d5760cf1c417f665b5a137450057c9f19424797306728a0dc2daead054",
+        "sha256_in_prefix": "cb5720d5760cf1c417f665b5a137450057c9f19424797306728a0dc2daead054",
+        "size_in_bytes": 5863
+      },
+      {
+        "_path": "lib/python3.10/site-packages/__pycache__/nose_exclude.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "nose-exclude",
+  "sha256": "892e5d724ce1c6c8fe91c3d99fa5e4539ded3cb13d1e09779f03e19b808bf478",
+  "size": 16990,
+  "subdir": "noarch",
+  "timestamp": 1554898200000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/nose-exclude-0.5.0-py_0.tar.bz2",
+  "version": "0.5.0"
+}

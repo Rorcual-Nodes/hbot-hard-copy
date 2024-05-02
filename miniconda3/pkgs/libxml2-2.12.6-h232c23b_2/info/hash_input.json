@@ -1,0 +1,11 @@
+{
+  "c_compiler_version": "12",
+  "channel_targets": "conda-forge main",
+  "xz": "5",
+  "target_platform": "linux-64",
+  "libiconv": "1",
+  "c_compiler": "gcc",
+  "VERBOSE_AT": "V=1",
+  "icu": "73",
+  "zlib": "1.2"
+}

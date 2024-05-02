@@ -1,0 +1,64 @@
+# This file created by conda-build 3.21.4
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Mon Feb 22 13:36:16 2021
+# ------------------------------------------------
+
+package:
+  name: tabulate
+  version: 0.8.9
+source:
+  fn: tabulate-0.8.9.tar.gz
+  sha256: eb1d13f25760052e8931f2ef80aaf6045a6cceb47514db8beab24cded16f13a7
+  url: https://pypi.io/packages/source/t/tabulate/tabulate-0.8.9.tar.gz
+build:
+  entry_points:
+    - tabulate = tabulate:_main
+  noarch: python
+  number: '0'
+  script: /home/conda/feedstock_root/build_artifacts/tabulate_1614001031686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/bin/python
+    -m pip install . -vv
+  string: pyhd8ed1ab_0
+requirements:
+  host:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 1_gnu
+    - ca-certificates 2020.12.5 ha878542_0
+    - certifi 2020.12.5 py39hf3d152e_1
+    - ld_impl_linux-64 2.35.1 hea4e1c9_2
+    - libffi 3.3 h58526e2_2
+    - libgcc-ng 9.3.0 h2828fa1_18
+    - libgomp 9.3.0 h2828fa1_18
+    - libstdcxx-ng 9.3.0 h6de172a_18
+    - ncurses 6.2 h58526e2_4
+    - openssl 1.1.1j h7f98852_0
+    - pip 21.0.1 pyhd8ed1ab_0
+    - python 3.9.2 hffdb5ce_0_cpython
+    - python_abi 3.9 1_cp39
+    - readline 8.0 he28a2e2_2
+    - setuptools 49.6.0 py39hf3d152e_3
+    - sqlite 3.34.0 h74cdb3f_0
+    - tk 8.6.10 h21135ba_1
+    - tzdata 2021a he74cb21_0
+    - wheel 0.36.2 pyhd3deb0d_0
+    - xz 5.2.5 h516909a_1
+    - zlib 1.2.11 h516909a_1010
+  run:
+    - python =2.7|>=3.5
+test:
+  commands:
+    - tabulate --help
+  imports:
+    - tabulate
+about:
+  dev_url: https://github.com/astanin/python-tabulate
+  home: https://github.com/astanin/python-tabulate
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: Pretty-print tabular data in Python, a library and a command-line utility.
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - jakirkham
+    - synapticarbors

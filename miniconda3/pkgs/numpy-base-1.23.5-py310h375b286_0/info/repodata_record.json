@@ -1,0 +1,30 @@
+{
+  "arch": "x86_64",
+  "build": "py310h375b286_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [
+    "numpy 1.23.5 py310hac523dd_0"
+  ],
+  "depends": [
+    "blas * openblas",
+    "libgcc-ng >=11.2.0",
+    "libopenblas >=0.3.20,<1.0a0",
+    "libstdcxx-ng >=11.2.0",
+    "python >=3.10,<3.11.0a0"
+  ],
+  "features": "",
+  "fn": "numpy-base-1.23.5-py310h375b286_0.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "9638ad86e60249bae0a55a131d769f50",
+  "name": "numpy-base",
+  "platform": "linux",
+  "sha256": "93bf7d00647f30bb6d483c9dfadf18aa8e2cc4ed2ec836a8b6b5a32a8d117b32",
+  "size": 7015077,
+  "subdir": "linux-64",
+  "timestamp": 1672337449000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/numpy-base-1.23.5-py310h375b286_0.conda",
+  "version": "1.23.5"
+}

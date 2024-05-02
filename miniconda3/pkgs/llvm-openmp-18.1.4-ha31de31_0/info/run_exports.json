@@ -1,0 +1,1 @@
+{"strong": ["llvm-openmp >=18.1.4", "_openmp_mutex >=4.5", "_openmp_mutex * *_llvm"]}

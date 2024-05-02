@@ -1,0 +1,29 @@
+{
+  "arch": "x86_64",
+  "build": "py38ha98ab4e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "cffi >=1.11",
+    "libgcc-ng >=12",
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38",
+    "zstd >=1.5.5,<1.5.6.0a0",
+    "zstd >=1.5.5,<1.6.0a0"
+  ],
+  "features": "",
+  "fn": "zstandard-0.22.0-py38ha98ab4e_0.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "5a71f7414d8398d353c63c3d6fc846bc",
+  "name": "zstandard",
+  "platform": "linux",
+  "sha256": "a782cb8c6fa05ee8212506c7f3d67d48a08057a5d8325dd4136d554c05ad389b",
+  "size": 402936,
+  "subdir": "linux-64",
+  "timestamp": 1698830238606,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/zstandard-0.22.0-py38ha98ab4e_0.conda",
+  "version": "0.22.0"
+}

@@ -1,0 +1,121 @@
+# This file created by conda-build 24.3.0
+# ------------------------------------------------
+
+package:
+  name: llvm-openmp
+  version: 18.1.4
+source:
+  folder: llvm-project
+  patches:
+    - patches/0001-openmp-On-Windows-fix-standalone-cmake-build.patch
+    - patches/0002-link-libomp-to-compiler-rt-on-osx-arm.patch
+  sha256: 2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b
+  url: https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz
+build:
+  ignore_run_exports:
+    - _openmp_mutex
+    - libgcc-ng
+    - libstdcxx-ng
+  number: 0
+  run_exports:
+    strong:
+      - _openmp_mutex * *_llvm
+      - _openmp_mutex >=4.5
+      - llvm-openmp >=18.1.4
+  string: ha31de31_0
+requirements:
+  build:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - binutils_impl_linux-64 2.40 ha885e6a_0
+    - binutils_linux-64 2.40 hdade7a5_3
+    - bzip2 1.0.8 hd590300_5
+    - c-ares 1.28.1 hd590300_0
+    - ca-certificates 2024.2.2 hbcca054_0
+    - cmake 3.29.2 hcfe8598_0
+    - gcc_impl_linux-64 12.3.0 h58ffeeb_6
+    - gcc_linux-64 12.3.0 h6477408_3
+    - gxx_impl_linux-64 12.3.0 h2a574ab_6
+    - gxx_linux-64 12.3.0 h4a1b8e8_3
+    - kernel-headers_linux-64 2.6.32 he073ed8_17
+    - keyutils 1.6.1 h166bdaf_0
+    - krb5 1.21.2 h659d440_0
+    - ld_impl_linux-64 2.40 h55db66e_0
+    - libcurl 8.7.1 hca28451_0
+    - libedit 3.1.20191231 he28a2e2_2
+    - libev 4.33 hd590300_2
+    - libexpat 2.6.2 h59595ed_0
+    - libgcc-devel_linux-64 12.3.0 h0223996_106
+    - libgcc-ng 13.2.0 h77fa898_6
+    - libgomp 13.2.0 h77fa898_6
+    - libnghttp2 1.58.0 h47da74e_1
+    - libsanitizer 12.3.0 hb8811af_6
+    - libssh2 1.11.0 h0841786_0
+    - libstdcxx-devel_linux-64 12.3.0 h0223996_106
+    - libstdcxx-ng 13.2.0 hc0a3c3a_6
+    - libuv 1.48.0 hd590300_0
+    - libxcrypt 4.4.36 hd590300_1
+    - libzlib 1.2.13 hd590300_5
+    - ncurses 6.4.20240210 h59595ed_0
+    - ninja 1.12.0 h00ab1b0_0
+    - openssl 3.3.0 hd590300_0
+    - perl 5.32.1 7_hd590300_perl5
+    - rhash 1.4.4 hd590300_0
+    - sysroot_linux-64 2.12 he073ed8_17
+    - xz 5.2.6 h166bdaf_0
+    - zstd 1.5.5 hfc55251_0
+  host:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - icu 73.2 h59595ed_0
+    - libgcc-ng 13.2.0 h77fa898_6
+    - libgomp 13.2.0 h77fa898_6
+    - libiconv 1.17 hd590300_2
+    - libllvm18 18.1.4 h2448989_0
+    - libstdcxx-ng 13.2.0 hc0a3c3a_6
+    - libxml2 2.12.6 h232c23b_2
+    - libzlib 1.2.13 hd590300_5
+    - llvm-tools 18.1.4 h2448989_0
+    - llvmdev 18.1.4 h2448989_0
+    - xz 5.2.6 h166bdaf_0
+    - zlib 1.2.13 hd590300_5
+    - zstd 1.5.5 hfc55251_0
+  run:
+    - libzlib >=1.2.13,<1.3.0a0
+    - zstd >=1.5.5,<1.6.0a0
+  run_constrained:
+    - openmp 18.1.4|18.1.4.*
+test:
+  commands:
+    - test -f $PREFIX/lib/libomp.so
+    - test -f $PREFIX/include/omp.h
+    - export LNK_XTRA="-Wl,--allow-shlib-undefined"
+    - $PREFIX/bin/clang -v -fopenmp -I$PREFIX/include -L$PREFIX/lib -Wl,-rpath,$PREFIX/lib
+      $LNK_XTRA omp_hello.c -o omp_hello
+    - ./omp_hello
+  files:
+    - omp_hello.c
+  requires:
+    - clangxx
+    - gxx_linux-64 12.*
+about:
+  dev_url: https://github.com/llvm/llvm-project/
+  home: http://openmp.llvm.org/
+  license: Apache-2.0 WITH LLVM-exception
+  license_file: openmp/LICENSE.TXT
+  summary: The OpenMP API supports multi-platform shared-memory parallel programming
+    in C/C++ and Fortran.
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: azure_20240502.1.1
+  recipe-maintainers:
+    - beckermr
+    - h-vetinari
+    - inducer
+    - isuruf
+    - jakirkham
+    - katietz
+    - yesimon
+  remote_url: https://github.com/conda-forge/openmp-feedstock
+  sha: 0e564917bc9c56198d6f761beae34bf0d7d699c7

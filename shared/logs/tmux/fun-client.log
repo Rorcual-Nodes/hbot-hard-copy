@@ -1,0 +1,29 @@
+export PASSWORD="12345"
+conda activate funttastic
+cd /root/funttastic/client
+APP=fun-client python app.py
+[?2004h(hummingbot) root@5cc1b0d24d9c:~# export PASSWORD="12345"
+[?2004l[?2004h(hummingbot) root@5cc1b0d24d9c:~# conda activate funttastic
+[?2004l[?2004h(funttastic) root@5cc1b0d24d9c:~# cd /root/funttastic/client
+[?2004l[?2004h(funttastic) root@5cc1b0d24d9c:~/funttastic/client# APP=fun-client python app.py M(funttastic) root@5cc1b0d24d9c:~/funttastic/client# APP=fun-client python app.p[Ky
+[?2004l[32mINFO[0m:     Started server process [[36m1045[0m]
+[32mINFO[0m:     Waiting for application startup.
+[32mINFO[0m:     Application startup complete.
+[32mINFO[0m:     Uvicorn running on [1mhttps://0.0.0.0:50001[0m (Press CTRL+C to quit)
+[32mINFO[0m:     127.0.0.1:50650 - "[1mPOST /auth/signIn HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:50662 - "[1mGET /service/status HTTP/1.1[0m" [31m401 Unauthorized[0m
+[32mINFO[0m:     127.0.0.1:42404 - "[1mPOST /auth/signIn HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:42412 - "[1mGET /service/status HTTP/1.1[0m" [31m401 Unauthorized[0m
+[32mINFO[0m:     127.0.0.1:38910 - "[1mPOST /auth/refresh HTTP/1.1[0m" [31m401 Unauthorized[0m
+[32mINFO[0m:     127.0.0.1:42490 - "[1mPOST /auth/signIn HTTP/1.1[0m" [31m401 Unauthorized[0m
+[32mINFO[0m:     127.0.0.1:42500 - "[1mPOST /auth/signIn HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:42516 - "[1mGET /service/status HTTP/1.1[0m" [31m401 Unauthorized[0m
+[32mINFO[0m:     127.0.0.1:58012 - "[1mPOST /auth/signIn HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:58026 - "[1mGET /service/status HTTP/1.1[0m" [31m401 Unauthorized[0m
+[32mINFO[0m:     127.0.0.1:33706 - "[1mPOST /auth/signIn HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:33712 - "[1mGET /service/status HTTP/1.1[0m" [31m401 Unauthorized[0m
+[32mINFO[0m:     127.0.0.1:42624 - "[1mPOST /auth/signIn HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:42636 - "[1mGET /service/status HTTP/1.1[0m" [31m401 Unauthorized[0m
+[32mINFO[0m:     127.0.0.1:34022 - "[1mPOST /auth/signIn HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:57902 - "[1mGET /service/status HTTP/1.1[0m" [31m401 Unauthorized[0m
+[32mINFO[0m:     127.0.0.1:37460 - "[1mPOST /auth/refresh HTTP/1.1[0m" [31m401 Unauthorized[0m

@@ -1,0 +1,47 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/nose_exclude-0.5.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "site-packages/nose_exclude-0.5.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "d4ea52a8efef7c9a1cb513960653b76cfaf58f9ac71dd4e77b21e7e7c32db79b",
+      "size_in_bytes": 3457
+    },
+    {
+      "_path": "site-packages/nose_exclude-0.5.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "21e09470985e3c012fe996ca262364c7a2c1af773db3517b0115034bcc53fca1",
+      "size_in_bytes": 609
+    },
+    {
+      "_path": "site-packages/nose_exclude-0.5.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "c32e88d119177f5487408f5680c18c66d92b3ea73e738f545ab4c7d7f9ca1674",
+      "size_in_bytes": 93
+    },
+    {
+      "_path": "site-packages/nose_exclude-0.5.0.dist-info/entry_points.txt",
+      "path_type": "hardlink",
+      "sha256": "3809bbdd06a1939c3362875199480639e8694ae849650c1c9832bd8f9c13a0df",
+      "size_in_bytes": 56
+    },
+    {
+      "_path": "site-packages/nose_exclude-0.5.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "753c1fa071621ab52ae9fefcd676c577ff43a5e0464a238b0d8b4001bcd2e3a3",
+      "size_in_bytes": 13
+    },
+    {
+      "_path": "site-packages/nose_exclude.py",
+      "path_type": "hardlink",
+      "sha256": "cb5720d5760cf1c417f665b5a137450057c9f19424797306728a0dc2daead054",
+      "size_in_bytes": 5863
+    }
+  ],
+  "paths_version": 1
+}

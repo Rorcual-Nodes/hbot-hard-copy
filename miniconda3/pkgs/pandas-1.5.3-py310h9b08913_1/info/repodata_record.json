@@ -1,0 +1,29 @@
+{
+  "arch": "x86_64",
+  "build": "py310h9b08913_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=12",
+    "libstdcxx-ng >=12",
+    "numpy >=1.21.6,<2.0a0",
+    "python >=3.10,<3.11.0a0",
+    "python-dateutil >=2.8.1",
+    "python_abi 3.10.* *_cp310",
+    "pytz >=2020.1"
+  ],
+  "features": "",
+  "fn": "pandas-1.5.3-py310h9b08913_1.conda",
+  "license": "BSD-3-Clause",
+  "md5": "331c9dd2560aeb308e26f821280f19d0",
+  "name": "pandas",
+  "platform": "linux",
+  "sha256": "8766d9ef466d6604f561e844578d3c2bcd4ac8d22d2823bae9fd18ecc26af615",
+  "size": 12005697,
+  "subdir": "linux-64",
+  "timestamp": 1680108357000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pandas-1.5.3-py310h9b08913_1.conda",
+  "version": "1.5.3"
+}

@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "py38h01eb140_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=12",
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38",
+    "ruamel.yaml.clib >=0.1.2"
+  ],
+  "features": "",
+  "fn": "ruamel.yaml-0.18.6-py38h01eb140_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "54baf6f86c42f6795251de56141976f5",
+  "name": "ruamel.yaml",
+  "platform": "linux",
+  "sha256": "f20f9bc4b59e77fd755f442a9832812137c0d543d8ac8548db7200778fcb7c7f",
+  "size": 199581,
+  "subdir": "linux-64",
+  "timestamp": 1707298360722,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ruamel.yaml-0.18.6-py38h01eb140_0.conda",
+  "version": "0.18.6"
+}

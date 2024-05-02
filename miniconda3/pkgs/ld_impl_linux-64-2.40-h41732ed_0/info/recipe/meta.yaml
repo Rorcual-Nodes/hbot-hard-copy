@@ -1,0 +1,51 @@
+# This file created by conda-build 3.23.3
+# ------------------------------------------------
+
+package:
+  name: ld_impl_linux-64
+  version: '2.40'
+source:
+  - patches:
+      - patches/0001-fallback-sysroot.diff
+    sha256: f8298eb153a4b37d112e945aa5cb2850040bcf26a3ea65b5a715c83afe05e48a
+    url: https://ftp.gnu.org/gnu/binutils/binutils-2.40.tar.bz2
+build:
+  detect_binary_files_with_prefix: false
+  ignore_run_exports_from:
+    - gcc_bootstrap_linux-64 11.*
+  merge_build_host: false
+  number: 0
+  string: h41732ed_0
+requirements:
+  build:
+    - gcc_bootstrap_linux-64 11.3.0 hbea76b5_11
+  run: []
+  run_constrained:
+    - binutils_impl_linux-64 2.40
+test:
+  commands:
+    - x86_64-conda_cos6-linux-gnu-ld --help
+    - echo "conda_cos6"
+    - echo 11
+about:
+  home: https://www.gnu.org/software/binutils/
+  license: GPL-3.0-only
+  license_file:
+    - COPYING
+    - COPYING.LIB
+    - COPYING3
+    - COPYING3.LIB
+  summary: 'A set of programming tools for creating and managing binary programs,
+    object files,
+
+    libraries, profile data, and assembly source code.
+
+    '
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - beckermr
+    - frol
+    - isuruf
+    - jjhelmus

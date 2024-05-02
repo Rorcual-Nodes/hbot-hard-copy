@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "py310hc51659f_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=12",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310",
+    "tomli"
+  ],
+  "features": "",
+  "fn": "coverage-7.5.0-py310hc51659f_0.conda",
+  "license": "Apache-2.0",
+  "md5": "3609fdb03842f67e2ec68a9c137221b8",
+  "name": "coverage",
+  "platform": "linux",
+  "sha256": "b7f29f2cef34873a7f345a989c8203507b4f177fe54a864c5f8c82d29bf10373",
+  "size": 293491,
+  "subdir": "linux-64",
+  "timestamp": 1713908143000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/coverage-7.5.0-py310hc51659f_0.conda",
+  "version": "7.5.0"
+}

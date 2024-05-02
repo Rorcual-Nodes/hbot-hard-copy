@@ -1,0 +1,7 @@
+cd /root/filebrowser
+APP=filebrowser filebrowser --address=0.0.0.0 -p 50002 -r ../shared
+[?2004h(hummingbot) root@5cc1b0d24d9c:~# cd /root/filebrowser
+[?2004l[?2004h(hummingbot) root@5cc1b0d24d9c:~/filebrowser# APP=filebrowser filebrowser --addreess=0.0.0.0 -p 50002 -r ../shared
+[?2004l2024/05/02 19:50:41 Using database: /root/filebrowser/filebrowser.db
+2024/05/02 19:50:41 No config file used
+2024/05/02 19:50:41 Listening on [::]:50002

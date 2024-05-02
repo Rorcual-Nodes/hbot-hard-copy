@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "py38h578d9bd_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38"
+  ],
+  "features": "",
+  "fn": "menuinst-2.0.2-py38h578d9bd_0.conda",
+  "license": "BSD-3-Clause AND MIT",
+  "md5": "c1514fdcdcb7d1c4d1224e50e5e83773",
+  "name": "menuinst",
+  "platform": "linux",
+  "sha256": "a3018fffb0b12d3caaec1f6174507da0387d658cdcf2df9fba737c60f190cec6",
+  "size": 134208,
+  "subdir": "linux-64",
+  "timestamp": 1705068469504,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/menuinst-2.0.2-py38h578d9bd_0.conda",
+  "version": "2.0.2"
+}

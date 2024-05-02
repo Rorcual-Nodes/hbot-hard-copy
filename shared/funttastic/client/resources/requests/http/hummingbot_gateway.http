@@ -1,0 +1,71 @@
+GET https://{{host}}:{{port}}/hummingbot/gateway/
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{}
+
+###
+
+GET https://{{host}}:{{port}}/hummingbot/gateway//clob/markets?chain=kujira&network=testnet&connector=kujira&market=KUJI-DEMO
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{}
+
+###
+
+POST https://{{host}}:{{port}}/hummingbot/gateway//chain/balances
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "chain": "kujira",
+  "network": "mainnet",
+  "connector": "kujira",
+  "address": "<wallet address>"
+}
+
+###
+
+POST https://{{host}}:{{port}}/hummingbot/gateway//clob/orders
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "chain": "kujira",
+  "network": "testnet",
+  "connector": "kujira",
+  "price": "999.99",
+  "amount": "1.0",
+  "orderType": "LIMIT",
+  "side": "SELL",
+  "market": "KUJI-USK",
+  "address": "kujira1d6ld7s0edsh5qsmt3lq4tnrqgvxc3jdrk9z3km"
+}
+
+###
+
+POST https://{{host}}:{{port}}/hummingbot/gateway//hummingbot/gateway/wallet/add
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "chain": "kujira",
+  "network": "testnet",
+  "connector": "kujira",
+  "privateKey": "{{mnemonic}}",
+  "accountNumber": 0
+}
+
+###
+
+DELETE https://{{host}}:{{port}}/hummingbot/gateway//hummingbot/gateway/wallet/remove
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "chain": "kujira",
+  "address": "{{publickey}}"
+}
+
+###

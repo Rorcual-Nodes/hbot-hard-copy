@@ -1,0 +1,14 @@
+export GATEWAY_PASSPHRASE="12345"
+cd /root/hummingbot/gateway
+APP=hb-gateway yarn start
+[?2004h(hummingbot) root@5cc1b0d24d9c:~# export GATEWAY_PASSPHRASE="12345"
+[?2004l[?2004h(hummingbot) root@5cc1b0d24d9c:~# cd /root/hummingbot/gateway
+[?2004l[?2004h(hummingbot) root@5cc1b0d24d9c:~/hummingbot/gateway# APP=hb-gateway yarn start
+[?2004l[2K[1G[1myarn run v1.22.22[22m
+[2K[1G[2m$ /bin/bash ./startup.sh[22m
+2024-05-03 09:10:46 | info | 	Gateway Version: 1.24.0
+2024-05-03 09:10:46 | info | 	⚡️ Starting Gateway API on port 15888...
+2024-05-03 09:10:46 | info | 	The gateway server is secured behind HTTPS.
+2024-05-03 09:10:46 | info | 	⚡️ Swagger listening on port 8080. Read the Gateway API documentation at 127.0.0.1:8080
+::ffff:127.0.0.1 - - [02/May/2024:19:52:16 +0000] "GET /connectors HTTP/1.1" 200 3919 "-" "Python/3.10 aiohttp/3.9.5"
+::ffff:127.0.0.1 - - [02/May/2024:19:52:16 +0000] "GET /chain/config HTTP/1.1" 200 15757 "-" "Python/3.10 aiohttp/3.9.5"

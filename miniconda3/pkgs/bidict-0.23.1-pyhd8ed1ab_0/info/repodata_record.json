@@ -1,0 +1,23 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.8"
+  ],
+  "features": "",
+  "fn": "bidict-0.23.1-pyhd8ed1ab_0.conda",
+  "license": "MPL-2.0",
+  "md5": "c9916c3975b19f470218f415701d6362",
+  "name": "bidict",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "cc7af340b9c99fb170032e103546329cd7c280d28ceca74468e19dd8b0539531",
+  "size": 31346,
+  "subdir": "noarch",
+  "timestamp": 1708298386000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/bidict-0.23.1-pyhd8ed1ab_0.conda",
+  "version": "0.23.1"
+}

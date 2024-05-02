@@ -1,0 +1,83 @@
+# This file created by conda-build 3.28.2
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Fri Dec 22 13:11:11 2023
+# ------------------------------------------------
+
+package:
+  name: tzdata
+  version: 2023d
+source:
+  - sha256: dbca21970b0a8b8c0ceceec1d7b91fa903be0f6eca5ae732b5329672232a08f3
+    url: https://data.iana.org/time-zones/releases/tzdata2023d.tar.gz
+  - sha256: e9a5f9e118886d2de92b62bb05510a28cc6c058d791c93bd6b84d3292c3c161e
+    url: https://data.iana.org/time-zones/releases/tzcode2023d.tar.gz
+build:
+  ignore_run_exports:
+    - libgcc-ng
+  noarch: generic
+  number: '0'
+  string: h0c530f3_0
+requirements:
+  build:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - _sysroot_linux-64_curr_repodata_hack 3 h69a702a_13
+    - binutils_impl_linux-64 2.40 hf600244_0
+    - binutils_linux-64 2.40 hbdbef99_2
+    - gcc_impl_linux-64 12.3.0 he2b93b0_3
+    - gcc_linux-64 12.3.0 h76fc315_2
+    - kernel-headers_linux-64 3.10.0 h4a8ded7_13
+    - ld_impl_linux-64 2.40 h41732ed_0
+    - libgcc-devel_linux-64 12.3.0 h8bca6fd_103
+    - libgcc-ng 13.2.0 h807b86a_3
+    - libgomp 13.2.0 h807b86a_3
+    - libsanitizer 12.3.0 h0f45ef3_3
+    - libstdcxx-ng 13.2.0 h7e041cc_3
+    - make 4.3 hd18ef5c_1
+    - sysroot_linux-64 2.17 h4a8ded7_13
+  host:
+    - __glibc >=2.17,<3.0.a0
+  run: []
+test:
+  commands:
+    - test -f "${PREFIX}/share/zoneinfo/leapseconds"
+    - test -f "${PREFIX}/share/zoneinfo/iso3166.tab"
+    - test -f "${PREFIX}/share/zoneinfo/zone1970.tab"
+    - test -f "${PREFIX}/share/zoneinfo/zone.tab"
+    - test -f "${PREFIX}/share/zoneinfo/tzdata.zi"
+    - "dirs=\"$(\n  find \"${PREFIX}\" -mindepth 1 -maxdepth 2 \\\n  \\! -path \"\
+      ${PREFIX}/share\" \\! -path \"${PREFIX}/conda-meta*\"\n)\"\ntest \"${dirs}\"\
+      \ = \"${PREFIX}/share/zoneinfo\"\n"
+    - "heads=\"$(\n  find \"${PREFIX}/share/zoneinfo\" -type f \\\n    \\! -name \\\
+      *.zi \\! -name \\*.tab \\! -name leapseconds \\\n    -exec head -c4 {} \\; -printf\
+      \ \\\\n \\\n    | uniq\n)\"\ntest \"${heads}\" = TZif\n"
+about:
+  description: 'The Time Zone Database (called tz, tzdb or zoneinfo) contains code
+
+    (the tzcode package) and data (this package) that represent the
+
+    history of local time for many representative
+
+    locations around the globe.  It is updated periodically to reflect
+
+    changes made by political bodies to time zone boundaries, UTC offsets,
+
+    and daylight-saving rules.
+
+    '
+  dev_url: https://github.com/eggert/tz
+  doc_url: https://data.iana.org/time-zones/tz-link.html
+  home: https://www.iana.org/time-zones
+  license: LicenseRef-Public-Domain
+  license_file: LICENSE
+  summary: The Time Zone Database (called tz, tzdb or zoneinfo) data
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: azure_20231222.2.1
+  recipe-maintainers:
+    - mbargull
+    - ocefpaf
+    - pganssle
+  remote_url: https://github.com/conda-forge/tzdata-feedstock
+  sha: ffe8e004d1760094b736a15f6051be5ce2633d26

@@ -1,0 +1,152 @@
+{
+  "build": "pthreads_h7a3da1a_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=12",
+    "libgfortran-ng",
+    "libgfortran5 >=12.3.0",
+    "libopenblas 0.3.25 pthreads_h413a1c8_0"
+  ],
+  "extracted_package_dir": "/root/miniconda3/pkgs/openblas-0.3.25-pthreads_h7a3da1a_0",
+  "features": "",
+  "files": [
+    "include/cblas.h",
+    "include/f77blas.h",
+    "include/lapack.h",
+    "include/lapacke.h",
+    "include/lapacke_config.h",
+    "include/lapacke_mangling.h",
+    "include/lapacke_utils.h",
+    "include/openblas_config.h",
+    "lib/cmake/openblas/OpenBLASConfig.cmake",
+    "lib/cmake/openblas/OpenBLASConfigVersion.cmake",
+    "lib/libopenblas.a",
+    "lib/libopenblas.so",
+    "lib/libopenblasp-r0.3.25.a",
+    "lib/pkgconfig/openblas.pc"
+  ],
+  "fn": "openblas-0.3.25-pthreads_h7a3da1a_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/root/miniconda3/pkgs/openblas-0.3.25-pthreads_h7a3da1a_0",
+    "type": 1
+  },
+  "md5": "87661673941b5e702275fdf0fc095ad0",
+  "name": "openblas",
+  "package_tarball_full_path": "/root/miniconda3/pkgs/openblas-0.3.25-pthreads_h7a3da1a_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/cblas.h",
+        "path_type": "hardlink",
+        "sha256": "78a4785df94a537a34a0d2fc1452698bfa9351a906746c81ae0136bd9c9e6063",
+        "sha256_in_prefix": "78a4785df94a537a34a0d2fc1452698bfa9351a906746c81ae0136bd9c9e6063",
+        "size_in_bytes": 49705
+      },
+      {
+        "_path": "include/f77blas.h",
+        "path_type": "hardlink",
+        "sha256": "229fe8e054ff9235c63f1b07a61af5b5f03d921eb9011db248cbc5681e876835",
+        "sha256_in_prefix": "229fe8e054ff9235c63f1b07a61af5b5f03d921eb9011db248cbc5681e876835",
+        "size_in_bytes": 48887
+      },
+      {
+        "_path": "include/lapack.h",
+        "path_type": "hardlink",
+        "sha256": "14382dd0ed6fb28910fa24091218d54ad418944bd5fdd001631d5ce180daeece",
+        "sha256_in_prefix": "14382dd0ed6fb28910fa24091218d54ad418944bd5fdd001631d5ce180daeece",
+        "size_in_bytes": 732049
+      },
+      {
+        "_path": "include/lapacke.h",
+        "path_type": "hardlink",
+        "sha256": "59543a27c16d3efba17b73c8c3e5c786468cfe91204a4dcb8fb4aafa15142cd7",
+        "sha256_in_prefix": "59543a27c16d3efba17b73c8c3e5c786468cfe91204a4dcb8fb4aafa15142cd7",
+        "size_in_bytes": 853868
+      },
+      {
+        "_path": "include/lapacke_config.h",
+        "path_type": "hardlink",
+        "sha256": "480a19beb74832b7db0d72be6581cf22a1c54ebe26ffacbaeca87d01e6a76dc2",
+        "sha256_in_prefix": "480a19beb74832b7db0d72be6581cf22a1c54ebe26ffacbaeca87d01e6a76dc2",
+        "size_in_bytes": 4410
+      },
+      {
+        "_path": "include/lapacke_mangling.h",
+        "path_type": "hardlink",
+        "sha256": "7d71fdee53a1e0cd01568aba2f152f2e1e4fbb849e84d740e3b031e819fbfa22",
+        "sha256_in_prefix": "7d71fdee53a1e0cd01568aba2f152f2e1e4fbb849e84d740e3b031e819fbfa22",
+        "size_in_bytes": 474
+      },
+      {
+        "_path": "include/lapacke_utils.h",
+        "path_type": "hardlink",
+        "sha256": "954fa3d0767509b4880dc43d55714fea1ffa01cc84bcb04db43a0df6a05f7d32",
+        "sha256_in_prefix": "954fa3d0767509b4880dc43d55714fea1ffa01cc84bcb04db43a0df6a05f7d32",
+        "size_in_bytes": 35243
+      },
+      {
+        "_path": "include/openblas_config.h",
+        "path_type": "hardlink",
+        "sha256": "3e8d39c68d81ebc4b4f910ee151ef4c904d86c2934f54dbbbade6a1294b66a43",
+        "sha256_in_prefix": "3e8d39c68d81ebc4b4f910ee151ef4c904d86c2934f54dbbbade6a1294b66a43",
+        "size_in_bytes": 4719
+      },
+      {
+        "_path": "lib/cmake/openblas/OpenBLASConfig.cmake",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/openblas_1700534352548/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "8a833fc7074b41ee7e26ce1e66e7983fb500512b92c3a84643cf7e255ac29d16",
+        "sha256_in_prefix": "9bd01f8ec9d29ea70a98cbea2c5c9b6f8d7f65cdf37196bbc647b071ca5a7c2e",
+        "size_in_bytes": 621
+      },
+      {
+        "_path": "lib/cmake/openblas/OpenBLASConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "9ab16c95a6886e8000bc77c1a4c2600052ac649df65d20a2cdf030fa1c4c653c",
+        "sha256_in_prefix": "9ab16c95a6886e8000bc77c1a4c2600052ac649df65d20a2cdf030fa1c4c653c",
+        "size_in_bytes": 285
+      },
+      {
+        "_path": "lib/libopenblas.a",
+        "path_type": "softlink",
+        "sha256": "7d69d4d71e4f1009e2128fd9998fb12dd2bdf8e0076972bf7e4c983f617c66e7",
+        "size_in_bytes": 64081074
+      },
+      {
+        "_path": "lib/libopenblas.so",
+        "path_type": "softlink",
+        "sha256": "ce968bbc925d1639079b44e76ee542066f04b50de14d1606f8db149b77af79ed",
+        "size_in_bytes": 36450680
+      },
+      {
+        "_path": "lib/libopenblasp-r0.3.25.a",
+        "path_type": "hardlink",
+        "sha256": "7d69d4d71e4f1009e2128fd9998fb12dd2bdf8e0076972bf7e4c983f617c66e7",
+        "sha256_in_prefix": "7d69d4d71e4f1009e2128fd9998fb12dd2bdf8e0076972bf7e4c983f617c66e7",
+        "size_in_bytes": 64081074
+      },
+      {
+        "_path": "lib/pkgconfig/openblas.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/openblas_1700534352548/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "4b99570e4f25c0f9882d66ecefa9f068c97f68bf638af1464294530489fc8ece",
+        "sha256_in_prefix": "02714d3629a72619a9a5cff81765f937dbec5ef2fd0477ac82adb66c8b76c96b",
+        "size_in_bytes": 1028
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a7d8a873c7232a5ea1cfcd450963f831ca4327f33012506d2b30b89fb117c8bd",
+  "size": 5689513,
+  "subdir": "linux-64",
+  "timestamp": 1700536027000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/openblas-0.3.25-pthreads_h7a3da1a_0.conda",
+  "version": "0.3.25"
+}

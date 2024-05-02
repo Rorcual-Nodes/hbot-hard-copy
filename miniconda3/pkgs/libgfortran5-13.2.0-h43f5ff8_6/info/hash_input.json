@@ -1,0 +1,12 @@
+{
+  "use_system_gcc": "False",
+  "binutils_version": "2.40",
+  "gcc_version": "13.2.0",
+  "sysroot_version": "2.12",
+  "target_platform": "linux-64",
+  "channel_targets": "conda-forge main",
+  "sysroot_name": "sysroot",
+  "triplet": "x86_64-conda-linux-gnu",
+  "cross_target_platform": "linux-64",
+  "libgfortran_soname": "5"
+}

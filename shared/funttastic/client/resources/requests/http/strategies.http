@@ -1,0 +1,182 @@
+GET https://{{host}}:{{port}}/strategy/status
+Authorization: Bearer {{token}}
+
+###
+
+GET https://{{host}}:{{port}}/strategy/status
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "strategy": "pure_market_making",
+  "version": "1.0.0",
+  "id": "id"
+}
+
+###
+
+POST https://{{host}}:{{port}}/strategy/start
+Authorization: Bearer {{token}}
+
+###
+
+POST https://{{host}}:{{port}}/strategy/start
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+	"strategy": "pure_market_making",
+	"version": "1.0.0",
+	"id": "id"
+}
+
+###
+
+POST https://{{host}}:{{port}}/strategy/stop
+Authorization: Bearer {{token}}
+
+###
+
+POST https://{{host}}:{{port}}/strategy/stop
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+	"strategy": "pure_market_making",
+	"version": "1.0.0",
+	"id": "id"
+}
+
+###
+
+GET https://{{host}}:{{port}}/strategy/worker/status
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "strategy": "pure_market_making",
+  "version": "1.0.0",
+  "id": "id",
+  "workerId": "workerId"
+}
+
+###
+
+POST https://{{host}}:{{port}}/strategy/worker/start
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+	"strategy": "pure_market_making",
+	"version": "1.0.0",
+	"id": "id",
+	"workerId": "workerId"
+}
+
+###
+
+POST https://{{host}}:{{port}}/strategy/worker/stop
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+	"strategy": "pure_market_making",
+	"version": "1.0.0",
+	"id": "id",
+	"workerId": "workerId"
+}
+
+###
+
+GET https://{{host}}:{{port}}/strategy/task/status
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "strategy": "pure_market_making",
+  "version": "1.0.0",
+  "id": "id",
+  "task": "task-id"
+}
+
+###
+
+POST https://{{host}}:{{port}}/strategy/task/start
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+	"strategy": "pure_market_making",
+	"version": "1.0.0",
+	"id": "id",
+	"task": "task-id"
+}
+
+###
+
+POST https://{{host}}:{{port}}/strategy/task/stop
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+	"strategy": "pure_market_making",
+	"version": "1.0.0",
+	"id": "id",
+	"task": "task-id"
+}
+
+###
+
+POST https://{{host}}:{{port}}/strategy/worker/task/start
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+	"strategy": "pure_market_making",
+	"version": "1.0.0",
+	"id": "id",
+	"workerId": "workerId",
+	"task": "task-id"
+}
+
+###
+
+POST https://{{host}}:{{port}}/strategy/worker/task/stop
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+	"strategy": "pure_market_making",
+	"version": "1.0.0",
+	"id": "id",
+	"workerId": "workerId",
+	"task": "task-id"
+}
+
+###
+
+GET https://{{host}}:{{port}}/strategy/worker/task/status
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+	"strategy": "pure_market_making",
+	"version": "1.0.0",
+	"id": "id",
+	"workerId": "workerId",
+	"task": "task-id"
+}
+
+###
+
+GET https://{{host}}:{{port}}/strategy/statistics
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+	"strategy": "pure_market_making",
+	"version": "1.0.0",
+	"id": "id"
+}
+
+###

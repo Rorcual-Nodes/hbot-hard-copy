@@ -1,0 +1,24 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python 2.7.*|>=3.5"
+  ],
+  "features": "",
+  "fn": "tabulate-0.8.9-pyhd8ed1ab_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "ee657dbe69e892aeccde7cabb4edf261",
+  "name": "tabulate",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "33b8144fc0673f8a7179b0e41f9b64abf17b5b4a70d33ab7ba221ecc275be17c",
+  "size": 26386,
+  "subdir": "noarch",
+  "timestamp": 1614001154000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/tabulate-0.8.9-pyhd8ed1ab_0.tar.bz2",
+  "version": "0.8.9"
+}

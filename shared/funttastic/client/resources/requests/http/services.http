@@ -1,0 +1,44 @@
+GET https://{{host}}:{{port}}/service/status
+Authorization: Bearer {{token}}
+
+###
+
+GET https://{{host}}:{{port}}/service/status
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "id": "fun-client"
+}
+
+###
+
+POST https://{{host}}:{{port}}/service/start
+Authorization: Bearer {{token}}
+
+###
+
+POST https://{{host}}:{{port}}/service/start
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "id": "fun-client"
+}
+
+###
+
+POST https://{{host}}:{{port}}/service/stop
+Authorization: Bearer {{token}}
+
+###
+
+POST https://{{host}}:{{port}}/service/stop
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "id": "fun-client"
+}
+
+###

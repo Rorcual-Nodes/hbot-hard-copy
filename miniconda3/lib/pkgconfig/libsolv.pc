@@ -1,0 +1,8 @@
+libdir=/root/miniconda3/lib
+includedir=/root/miniconda3/include
+
+Name: libsolv
+Description: Library for solving packages
+Version: 0.7.29
+Libs: -L${libdir} -lsolv
+Cflags: -I${includedir}

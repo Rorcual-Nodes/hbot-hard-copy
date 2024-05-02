@@ -1,0 +1,298 @@
+cd /root/funttastic/frontend
+APP=fun-frontend yarn start --host
+[?2004h(hummingbot) root@5cc1b0d24d9c:~# cd /root/funttastic/frontend
+[?2004l[?2004h(hummingbot) root@5cc1b0d24d9c:~/funttastic/frontend# APP=fun-frontend yarn startt --host
+[?2004l[2K[1G[1myarn run v1.22.22[22m
+[2K[1G[2m$ vite --host[22m
+[33mThe CJS build of Vite's Node API is deprecated. See https://vitejs.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+
+  [32m[1mVITE[22m v5.1.5[39m  [2mready in [0m[1m308[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m50000[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://172.17.0.2:[1m50000[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[33mFiles in the public directory are served at the root path.
+Instead of [36m/public/img/nav-icons/home-icon.png[33m, use [36m/img/nav-icons/home-icon.png[33m.[39m
+[33mFiles in the public directory are served at the root path.
+Instead of [36m/public/img/nav-icons/filebrowser-logo.svg[33m, use [36m/img/nav-icons/filebrowser-logo.svg[33m.[39m
+[33mFiles in the public directory are served at the root path.
+Instead of [36m/public/img/nav-icons/fun_logo.png[33m, use [36m/img/nav-icons/fun_logo.png[33m.[39m
+[33mFiles in the public directory are served at the root path.
+Instead of [36m/public/img/nav-icons/kuji.svg[33m, use [36m/img/nav-icons/kuji.svg[33m.[39m
+[33mFiles in the public directory are served at the root path.
+Instead of [36m/public/img/nav-icons/hummingbot-logo.svg[33m, use [36m/img/nav-icons/hummingbot-logo.svg[33m.[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:54:38 PM[22m [36m[1m[vite][22m[39m [32mvite.config.ts changed, restarting server...[39m
+[2m7:54:38 PM[22m [36m[1m[vite][22m[39m server restarted.
+[2m7:54:46 PM[22m [31m[1m[vite][22m[39m [31mhttp proxy error: //auth/signIn[39m
+Error: connect ECONNREFUSED 192.168.1.233:50001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:55:11 PM[22m [36m[1m[vite][22m[39m [32mvite.config.ts changed, restarting server...[39m
+[2m7:55:11 PM[22m [36m[1m[vite][22m[39m server restarted.
+[33mFiles in the public directory are served at the root path.
+Instead of [36m/public/img/nav-icons/home-icon.png[33m, use [36m/img/nav-icons/home-icon.png[33m.[39m
+[33mFiles in the public directory are served at the root path.
+Instead of [36m/public/img/nav-icons/filebrowser-logo.svg[33m, use [36m/img/nav-icons/filebrowser-logo.svg[33m.[39m
+[33mFiles in the public directory are served at the root path.
+Instead of [36m/public/img/nav-icons/fun_logo.png[33m, use [36m/img/nav-icons/fun_logo.png[33m.[39m
+[33mFiles in the public directory are served at the root path.
+Instead of [36m/public/img/nav-icons/kuji.svg[33m, use [36m/img/nav-icons/kuji.svg[33m.[39m
+[33mFiles in the public directory are served at the root path.
+Instead of [36m/public/img/nav-icons/hummingbot-logo.svg[33m, use [36m/img/nav-icons/hummingbot-logo.svg[33m.[39m
+[33mFiles in the public directory are served at the root path.
+Instead of [36m/public/img/nav-icons/home-icon.png[33m, use [36m/img/nav-icons/home-icon.png[33m.[39m
+[33mFiles in the public directory are served at the root path.
+Instead of [36m/public/img/nav-icons/filebrowser-logo.svg[33m, use [36m/img/nav-icons/filebrowser-logo.svg[33m.[39m
+[33mFiles in the public directory are served at the root path.
+Instead of [36m/public/img/nav-icons/fun_logo.png[33m, use [36m/img/nav-icons/fun_logo.png[33m.[39m
+[33mFiles in the public directory are served at the root path.
+Instead of [36m/public/img/nav-icons/kuji.svg[33m, use [36m/img/nav-icons/kuji.svg[33m.[39m
+[33mFiles in the public directory are served at the root path.
+Instead of [36m/public/img/nav-icons/hummingbot-logo.svg[33m, use [36m/img/nav-icons/hummingbot-logo.svg[33m.[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:13:56 PM[22m [36m[1m[vite][22m[39m [32mvite.config.ts changed, restarting server...[39m
+[2m8:13:57 PM[22m [36m[1m[vite][22m[39m server restarted.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:14:06 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Protocol "http:" not supported. Expected "https:"[39m
+      at new ClientRequest (node:_http_client:183:11)
+      at Object.request (node:http:103:10)
+      at Array.stream (file:///root/funttastic/frontend/node_modules/vite/dist/node/chunks/dep-G-px366b.js:62573:74)
+      at ProxyServer.<anonymous> (file:///root/funttastic/frontend/node_modules/vite/dist/node/chunks/dep-G-px366b.js:62887:22)
+      at viteProxyMiddleware (file:///root/funttastic/frontend/node_modules/vite/dist/node/chunks/dep-G-px366b.js:63189:23)
+      at call (file:///root/funttastic/frontend/node_modules/vite/dist/node/chunks/dep-G-px366b.js:42683:7)
+      at next (file:///root/funttastic/frontend/node_modules/vite/dist/node/chunks/dep-G-px366b.js:42627:5)
+      at viteCachedTransformMiddleware (file:///root/funttastic/frontend/node_modules/vite/dist/node/chunks/dep-G-px366b.js:63337:9)
+      at call (file:///root/funttastic/frontend/node_modules/vite/dist/node/chunks/dep-G-px366b.js:42683:7)
+      at next (file:///root/funttastic/frontend/node_modules/vite/dist/node/chunks/dep-G-px366b.js:42627:5)
+      at cors (file:///root/funttastic/frontend/node_modules/vite/dist/node/chunks/dep-G-px366b.js:43155:7)
+      at file:///root/funttastic/frontend/node_modules/vite/dist/node/chunks/dep-G-px366b.js:43191:17
+      at originCallback (file:///root/funttastic/frontend/node_modules/vite/dist/node/chunks/dep-G-px366b.js:43181:15)
+      at file:///root/funttastic/frontend/node_modules/vite/dist/node/chunks/dep-G-px366b.js:43186:13
+      at optionsCallback (file:///root/funttastic/frontend/node_modules/vite/dist/node/chunks/dep-G-px366b.js:43166:9)
+      at corsMiddleware (file:///root/funttastic/frontend/node_modules/vite/dist/node/chunks/dep-G-px366b.js:43171:7)
+      at call (file:///root/funttastic/frontend/node_modules/vite/dist/node/chunks/dep-G-px366b.js:42683:7)
+      at next (file:///root/funttastic/frontend/node_modules/vite/dist/node/chunks/dep-G-px366b.js:42627:5)
+      at Function.handle (file:///root/funttastic/frontend/node_modules/vite/dist/node/chunks/dep-G-px366b.js:42630:3)
+      at Server.app (file:///root/funttastic/frontend/node_modules/vite/dist/node/chunks/dep-G-px366b.js:42495:37)
+      at Server.emit (node:events:518:28)
+      at parserOnIncoming (node:_http_server:1137:12)
+      at HTTPParser.parserOnHeadersComplete (node:_http_common:119:17)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:14:32 PM[22m [36m[1m[vite][22m[39m [32mvite.config.ts changed, restarting server...[39m
+[2m8:14:32 PM[22m [36m[1m[vite][22m[39m server restarted.
+[33mFiles in the public directory are served at the root path.
+Instead of [36m/public/img/nav-icons/home-icon.png[33m, use [36m/img/nav-icons/home-icon.png[33m.[39m
+[33mFiles in the public directory are served at the root path.
+Instead of [36m/public/img/nav-icons/filebrowser-logo.svg[33m, use [36m/img/nav-icons/filebrowser-logo.svg[33m.[39m
+[33mFiles in the public directory are served at the root path.
+Instead of [36m/public/img/nav-icons/fun_logo.png[33m, use [36m/img/nav-icons/fun_logo.png[33m.[39m
+[33mFiles in the public directory are served at the root path.
+Instead of [36m/public/img/nav-icons/kuji.svg[33m, use [36m/img/nav-icons/kuji.svg[33m.[39m
+[33mFiles in the public directory are served at the root path.
+Instead of [36m/public/img/nav-icons/hummingbot-logo.svg[33m, use [36m/img/nav-icons/hummingbot-logo.svg[33m.[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:16:34 PM[22m [36m[1m[vite][22m[39m [32mvite.config.ts changed, restarting server...[39m
+[2m8:16:34 PM[22m [31m[1m[vite][22m[39m https is not defined
+[2m8:16:34 PM[22m [31m[1m[vite][22m[39m server restart failed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:17:20 PM[22m [36m[1m[vite][22m[39m [32mvite.config.ts changed, restarting server...[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:17:20 PM[22m [36m[1m[vite][22m[39m [32mvite.config.ts changed, restarting server...[39m [33m(x2)[39m
+[2m8:17:20 PM[22m [36m[1m[vite][22m[39m server restarted.
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m50000[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://172.17.0.2:[1m50000[22m/[39m
+Port 50000 is in use, trying another one...
+Port 50001 is in use, trying another one...
+Port 50002 is in use, trying another one...
+[2m8:17:20 PM[22m [36m[1m[vite][22m[39m server restarted.
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m50003[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://172.17.0.2:[1m50003[22m/[39m
+[33mFiles in the public directory are served at the root path.
+Instead of [36m/public/img/nav-icons/home-icon.png[33m, use [36m/img/nav-icons/home-icon.png[33m.[39m
+[33mFiles in the public directory are served at the root path.
+Instead of [36m/public/img/nav-icons/filebrowser-logo.svg[33m, use [36m/img/nav-icons/filebrowser-logo.svg[33m.[39m
+[33mFiles in the public directory are served at the root path.
+Instead of [36m/public/img/nav-icons/fun_logo.png[33m, use [36m/img/nav-icons/fun_logo.png[33m.[39m
+[33mFiles in the public directory are served at the root path.
+Instead of [36m/public/img/nav-icons/kuji.svg[33m, use [36m/img/nav-icons/kuji.svg[33m.[39m
+[33mFiles in the public directory are served at the root path.
+Instead of [36m/public/img/nav-icons/hummingbot-logo.svg[33m, use [36m/img/nav-icons/hummingbot-logo.svg[33m.[39m

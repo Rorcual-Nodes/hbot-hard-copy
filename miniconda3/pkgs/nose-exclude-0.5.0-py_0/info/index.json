@@ -1,0 +1,18 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "nose",
+    "python",
+    "setuptools"
+  ],
+  "license": "LGPL-2.1",
+  "license_family": "LGPL",
+  "name": "nose-exclude",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1554898200774,
+  "version": "0.5.0"
+}

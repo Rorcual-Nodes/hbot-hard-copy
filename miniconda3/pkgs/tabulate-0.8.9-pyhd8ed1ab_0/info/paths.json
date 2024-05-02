@@ -1,0 +1,65 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/tabulate-0.8.9.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/tabulate-0.8.9.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "e9b3558903e43517ec2763e29f656495f969e71bca448b2d2ead377f07344fa5",
+      "size_in_bytes": 1100
+    },
+    {
+      "_path": "site-packages/tabulate-0.8.9.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "0256a1150e87ddda4ff1b9b2ba2ab2e412a8f0684cc12f85f60b2b41227d7062",
+      "size_in_bytes": 23966
+    },
+    {
+      "_path": "site-packages/tabulate-0.8.9.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "7e0e178903c3aac86358f803d3fcc403e829190bf78d4ac9ed2e95e21a23d615",
+      "size_in_bytes": 955
+    },
+    {
+      "_path": "site-packages/tabulate-0.8.9.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "site-packages/tabulate-0.8.9.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+      "size_in_bytes": 92
+    },
+    {
+      "_path": "site-packages/tabulate-0.8.9.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "eacb2f716e23ba986b423f47a4bffbff808b0942d315b73cbf135cc5f50940e6",
+      "size_in_bytes": 104
+    },
+    {
+      "_path": "site-packages/tabulate-0.8.9.dist-info/entry_points.txt",
+      "path_type": "hardlink",
+      "sha256": "47ef08958d111f2d045cdc813de8622fb4d82afeba2d1ca2638595a619eadff2",
+      "size_in_bytes": 45
+    },
+    {
+      "_path": "site-packages/tabulate-0.8.9.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "a9faa44366b3ecb4f151e45e3ed5fc8209a1dbde0a7f5111748fb5d5a5aa1595",
+      "size_in_bytes": 9
+    },
+    {
+      "_path": "site-packages/tabulate.py",
+      "path_type": "hardlink",
+      "sha256": "07dcb90a263d4c461791e5c6fe744a91e4ef7e5ec0603f182903a25b101634ee",
+      "size_in_bytes": 62917
+    }
+  ],
+  "paths_version": 1
+}

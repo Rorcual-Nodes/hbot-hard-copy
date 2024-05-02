@@ -1,0 +1,11 @@
+{
+  "cxx_compiler": "gcc_bootstrap",
+  "c_compiler_version": "12",
+  "ctng_vendor": "conda_cos6",
+  "c_compiler": "gcc",
+  "cxx_compiler_version": "12",
+  "channel_targets": "conda-forge main",
+  "triplet": "x86_64-conda-linux-gnu",
+  "target_platform": "linux-64",
+  "cross_target_platform": "linux-64"
+}

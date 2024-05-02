@@ -1,0 +1,13 @@
+{
+  "binutils_version": "2.39",
+  "gcc_version": "13.2.0",
+  "cross_target_platform": "linux-64",
+  "libgomp_ver": "1.0.0",
+  "target_platform": "linux-64",
+  "gcc_machine": "x86_64",
+  "use_system_gcc": "False",
+  "_libgcc_mutex": "0.1 conda_forge",
+  "channel_targets": "conda-forge main",
+  "glibc_version": "2.12",
+  "glib": "2"
+}

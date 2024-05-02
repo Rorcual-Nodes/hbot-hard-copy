@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "py38h01eb140_0",
+  "build_number": 0,
+  "depends": [
+    "libgcc-ng >=12",
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38",
+    "ruamel.yaml.clib >=0.1.2"
+  ],
+  "license": "MIT",
+  "name": "ruamel.yaml",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1707298360722,
+  "version": "0.18.6"
+}

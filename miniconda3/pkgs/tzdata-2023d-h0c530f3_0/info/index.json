@@ -1,0 +1,13 @@
+{
+  "arch": null,
+  "build": "h0c530f3_0",
+  "build_number": 0,
+  "depends": [],
+  "license": "LicenseRef-Public-Domain",
+  "name": "tzdata",
+  "noarch": "generic",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1703250910370,
+  "version": "2023d"
+}
